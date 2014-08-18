@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trashshare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+com.android.launcher.permission.INSTALL_SHORTCUT
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.trashshare.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.trashshare.HelpMeActivity"
+            android:label="@string/title_activity_help_me" >
+        </activity>
+        <activity
+            android:name="com.example.trashshare.RecycleMapActivity"
+            android:label="@string/title_activity_recycle_map" >
+        </activity>
+        <activity
+            android:name="com.example.trashshare.CommunityActivity"
+            android:label="@string/title_activity_community" >
+        </activity>
+        <activity
+            android:name="com.example.trashshare.CommFashionActivity"
+            android:label="@string/title_activity_comm_fashion" >
+        </activity>
+        <activity
+            android:name="com.example.trashshare.FashionUploadActivity"
+            android:label="@string/title_activity_fashion_upload"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.example.trashshare.AboutActivity"
+            android:label="@string/title_activity_about" 
+            android:parentActivityName="com.example.trashshare.HomeActivity">
+        </activity>
+        <activity
+            android:name="com.example.trashshare.UploadPicActivity"
+            android:label="@string/title_activity_upload_pic" >
+        </activity>
+        
+        <activity android:name="com.example.trashshare.Sif_Example_ImageFilter" android:theme="@android:style/Theme.NoTitleBar"
+		    android:configChanges="locale|orientation|keyboard|screenSize|keyboardHidden"
+			android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>
+
+
+

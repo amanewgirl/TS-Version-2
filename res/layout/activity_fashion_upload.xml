@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+  
+    tools:context="com.example.trashshare.FashionUploadActivity"
+     >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:longClickable="false"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/abc_action_bar_default_height"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideOverlay"
+    android:textAlignment="center" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Upload_info" />
+ 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:text="@string/Username" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+   
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:text="@string/Project_name" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="17dp"
+        android:text="@string/Project_how_to" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="234dp"
+        android:layout_height="99dp"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:inputType="textMultiLine"
+        android:isScrollContainer="true"
+        android:minHeight="120dp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/abc_action_bar_default_height"
+        android:layout_marginTop="17dp"
+        android:text="@string/Photo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Gallery" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:maxWidth="50dp"
+        android:text="@string/Upload" />
+
+</LinearLayout>
+
+</ScrollView>

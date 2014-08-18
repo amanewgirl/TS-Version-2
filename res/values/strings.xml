@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrashShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_help_me">Can I recycle this?</string>
+    <string name="What">What Can I Recycle?</string>
+    <string name="What_response">&#032; According to The NEA FAQ, the following items can be easily recycled</string>
+    <string name="What_not">These items are NOT recyclable:\n -Food\n -Liquid Waste\n -Composite materials\n -Light bulbs\n -Ceramics\n -Porcelain</string>
+    <string name="title_activity_recycle_map">Recycle Map</string>
+    <string name="title_activity_community">Turn trash to Treasure!</string>
+    <string name="title_activity_comm_fashion">Fashionable Recycling</string>
+    <string name="title_activity_fashion_upload">Upload</string>
+    <string name="Upload_info">Welcome to the Community! Complete everything below and inspire a greener Singapore!</string>
+    <string name="Username">Username</string>
+    <string name="Project_name">Project name</string>
+    <string name="Project_how_to">How did you make your project?</string>
+    <string name="Photo">Take a Photo!</string>
+    <string name="Gallery">Photo from Gallery</string>
+    <string name="Upload">Upload</string>
+    <string name="About">About</string>
+    <string name="title_activity_about">What is Trashare?</string>
+    <string name="title_activity_upload_pic">UploadPicActivity</string>
+    <string name="ImageButton"></string>
+    <string name="About_Text">Trashare is a lifestyle application to help people contribute to a greener Singapore!\n\n
+In one of their leaflets, the National Environment Agency described the current rate of waste generation in Singapore as needing a new landfill the size of Sentosa in 35 years if it continues.\n
+So to help fight this we need to recycle NOW.\n\n
+-You can use the Community section to find and contribute creative recycling ideas\n\n
+-Or the Map to find the nearest recycling bin to you, using a postcode\n\n
+-Or simply to find out exactly what materials are recyclable \n\n
+Or  all 3! All information comes from the NEA website. Except for the Community section, that should come from you!
+        
+    </string>
+        <string name="hello">Hello World, SPen_Example</string>
+    
+    <string name="setimagefilter">Set Image Filter</string>
+    <string name="selectimage">Select Image</string>
+    <string name="setfilterlevel">Set Filter Level</string>    
+     <string name="filters"></string>   
+</resources>
